@@ -31,20 +31,5 @@
     "wpackagist-plugin/duplicate-post": "^3.2",
     "wpackagist-plugin/wordpress-seo": "^9.2",
     "wpackagist-plugin/wps-hide-login": "^1.5"
-  },
-  "extra": {
-    "installer-paths": {
-      "www/content/mu-plugins/{$name}/": [
-        "wpackagist-plugin/wp-tracy",
-        "wpackagist-plugin/clean-image-filenames",
-        "wpackagist-plugin/wp-smushit",
-        "wpackagist-plugin/safe-svg",
-        "wpackagist-plugin/better-search-replace",
-        "wpackagist-plugin/user-role-editor",
-        "wpackagist-plugin/duplicate-post",
-        "wpackagist-plugin/wordpress-seo",
-        "wpackagist-plugin/wps-hide-login"
-      ]
-    }
   }
 }
