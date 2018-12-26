@@ -1,7 +1,7 @@
 {
   "name": "kovarp/chillipress",
   "description": "Core functions for Wordpress projects",
-  "type": "project",
+  "type": "wordpress-muplugin",
   "license": [
     "BSD-3-Clause"
   ],
