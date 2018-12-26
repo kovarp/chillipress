@@ -31,5 +31,10 @@
     "wpackagist-plugin/duplicate-post": "^3.2",
     "wpackagist-plugin/wordpress-seo": "^9.2",
     "wpackagist-plugin/wps-hide-login": "^1.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "kovarp\\ChilliPress\\": "src/"
+    }
   }
 }
