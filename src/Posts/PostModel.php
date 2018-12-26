@@ -2,7 +2,7 @@
 
 namespace kovarp\ChilliPress\Posts;
 
-use ChilliPress\Acf\Acf;
+use kovarp\ChilliPress\Acf\Acf;
 use Nette\Utils\Arrays;
 
 abstract class PostModel {
