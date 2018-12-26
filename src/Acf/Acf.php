@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace ChilliPress\Acf;
+namespace kovarp\ChilliPress\Acf;
 
 use Nette\Utils\Arrays;
 

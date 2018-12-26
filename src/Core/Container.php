@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace ChilliPress\Core;
+namespace kovarp\ChilliPress\Core;
 
 class Container {
 

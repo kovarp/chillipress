@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace ChilliPress\Posts;
+namespace kovarp\ChilliPress\Posts;
 
 interface PostInterface {
 

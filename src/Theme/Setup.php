@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace ChilliPress\Theme;
+namespace kovarp\ChilliPress\Theme;
 
 class Setup {
 	public function __construct() {

@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace ChilliPress\Core;
+namespace kovarp\ChilliPress\Core;
 
 use Nette\Neon\Neon;
 use Nette\Utils\Arrays;

@@ -1,6 +1,6 @@
 <?php declare(strict_types = 1);
 
-namespace ChilliPress\Admin;
+namespace kovarp\ChilliPress\Admin;
 
 class Dashboard {
 	public function __construct() {
