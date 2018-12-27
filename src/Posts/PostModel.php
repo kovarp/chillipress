@@ -65,10 +65,25 @@ abstract class PostModel {
 
 	/**
 	 * @param int $postID
-	 * @return PostInterface
+	 * @return PostInterface|null
 	 */
 	public function getPost(int $postID): ?PostInterface {
 		return $this->postFromPostFactory(get_post($postID));
+	}
+
+	/**
+	 * @param string $slug
+	 * @return PostInterface|null
+	 */
+	public function getPostBySlug(string $slug): ?PostInterface {
+		$posts = $this->getPosts(
+			array(
+				'name'           => $slug,
+				'posts_per_page' => 1
+			)
+		);
+
+		return (isset($posts[0])) ? $posts[0] : NULL;
 	}
 
 	/**
