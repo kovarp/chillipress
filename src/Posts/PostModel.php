@@ -90,7 +90,7 @@ abstract class PostModel {
 	 * @param array $args
 	 * @return Post[]
 	 */
-	public function getPosts($args = array()): array {
+	public function getPosts(array $args = array()): array {
 		$defaultArgs = array(
 			'post_type'      => $this->postType,
 			'posts_per_page' => -1
