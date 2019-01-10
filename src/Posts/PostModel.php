@@ -24,7 +24,8 @@ abstract class PostModel {
 				'supports' => array(
 					'title',
 					'editor',
-					'thumbnail'
+					'thumbnail',
+					'author'
 				)
 			)
 		);
