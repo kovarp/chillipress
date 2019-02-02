@@ -16,8 +16,10 @@ class Configurator {
 	public function createContainer(): Container {
 		$container = new Container();
 
-		foreach ($this->config['services'] as $name => $service) {
-			$container->addService($name, $service);
+		if (!is_null($this->config['services'])) {
+			foreach ($this->config['services'] as $name => $service) {
+				$container->addService($name, $service);
+			}
 		}
 
 		return $container;
