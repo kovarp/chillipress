@@ -30,7 +30,8 @@
     "wpackagist-plugin/user-role-editor": "^4.47",
     "wpackagist-plugin/duplicate-post": "^3.2",
     "wpackagist-plugin/wordpress-seo": "^9.2",
-    "wpackagist-plugin/wps-hide-login": "^1.5"
+    "wpackagist-plugin/wps-hide-login": "^1.5",
+    "wpackagist-plugin/wp-super-cache": "^1.6"
   },
   "autoload": {
     "psr-4": {
