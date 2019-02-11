@@ -37,3 +37,5 @@ define('WP_CONTENT_URL', WP_HOME . CONTENT_DIR);
 
 define('WP_CACHE', TRUE);
 define('WPCACHEHOME', WP_CONTENT_DIR . '/mu-plugins/wp-super-cache/');
+
+define('WP_POST_REVISIONS', 3);
