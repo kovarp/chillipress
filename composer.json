@@ -32,7 +32,8 @@
     "wpackagist-plugin/wordpress-seo": "^9.2",
     "wpackagist-plugin/wps-hide-login": "^1.5",
     "wpackagist-plugin/wp-super-cache": "^1.6",
-    "wpackagist-plugin/advanced-custom-fields": "^5.7"
+    "wpackagist-plugin/advanced-custom-fields": "^5.7",
+    "wpackagist-plugin/classic-editor": "^1.4"
   },
   "autoload": {
     "psr-4": {
