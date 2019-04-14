@@ -21,7 +21,7 @@
   "require": {
     "php": ">=7.1",
     "johnpbloch/wordpress": "^5.1",
-    "nette/utils": "^2.5",
+    "nette/utils": "^3.0",
     "wpackagist-plugin/wp-tracy": "^2.0",
     "wpackagist-plugin/clean-image-filenames": "^1.2",
     "wpackagist-plugin/wp-smushit": "^2.9",
