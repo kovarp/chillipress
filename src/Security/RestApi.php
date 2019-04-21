@@ -26,14 +26,16 @@ class RestApi {
 	}
 
 	public function disabledRestApiCallback() {
-		header('Content-type: application/json');
+		if (!\is_user_logged_in()) {
+			header('Content-type: application/json');
 
-		$data = array(
-			'code'    => 'rest_api_disabled',
-			'message' => 'The JSON API is disabled.'
-		);
+			$data = array(
+				'code'    => 'rest_api_disabled',
+				'message' => 'The JSON API is disabled.'
+			);
 
-		echo json_encode( $data );
-		die();
+			echo json_encode($data);
+			die();
+		}
 	}
 }
