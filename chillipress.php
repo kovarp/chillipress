@@ -8,4 +8,10 @@ new kovarp\ChilliPress\Theme\Seo();
 new kovarp\ChilliPress\Admin\Topbar();
 new kovarp\ChilliPress\Admin\Dashboard();
 
-$container->run();
+add_action('plugins_loaded', 'runContainer');
+
+function runContainer() {
+	global $container;
+
+	$container->run();
+}
