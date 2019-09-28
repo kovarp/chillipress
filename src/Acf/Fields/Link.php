@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace ChilliPress\Acf\Fields;
+namespace kovarp\ChilliPress\Acf\Fields;
 
 class Link {
 
