@@ -4,8 +4,6 @@ namespace kovarp\ChilliPress\Theme;
 
 class Setup {
 	public function __construct() {
-		show_admin_bar(false);
-
 		$this->disableEmoji();
 	}
 
